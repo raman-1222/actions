@@ -1,0 +1,8 @@
+name:first
+on:workflow-dispatch
+jobs:
+  first-job:
+     runs-on:ubuntu-latest
+     steps:
+       - name:print-greeting
+         run: echo "hiu"
